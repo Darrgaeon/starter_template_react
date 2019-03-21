@@ -1,0 +1,8 @@
+{
+  "compact": true,
+  "presets": ["@babel/preset-react","@babel/preset-env"],
+  "plugins": [
+    "transform-object-rest-spread",
+    ["@babel/plugin-proposal-class-properties", { "loose": true }]
+  ]
+}
